@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Zdrojové soubory">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Hlavičkové soubory">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Soubory zdrojů">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Zdrojové soubory\Models">
+      <UniqueIdentifier>{41628359-3913-43c6-8c75-51eaf3c70094}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zdrojové soubory\Libs">
+      <UniqueIdentifier>{e87ab318-2706-4f84-b7c5-f6bad78cf9fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zdrojové soubory\Models\Base">
+      <UniqueIdentifier>{392dc84f-14d2-4f42-96ea-6a2f5f64aa80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zdrojové soubory\Include">
+      <UniqueIdentifier>{682e5e8e-c15e-4747-a1f1-0c5ddf72e5d5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Include\libv2\v2mplayer.cpp">
+      <Filter>Zdrojové soubory\Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\HouseFlatBase.cpp">
+      <Filter>Zdrojové soubory\Models\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BuildingBase.cpp">
+      <Filter>Zdrojové soubory\Models\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Road.cpp">
+      <Filter>Zdrojové soubory\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Skyscraper.cpp">
+      <Filter>Zdrojové soubory\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Flats.cpp">
+      <Filter>Zdrojové soubory\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\House.cpp">
+      <Filter>Zdrojové soubory\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Generator.cpp">
+      <Filter>Zdrojové soubory</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Main.cpp">
+      <Filter>Zdrojové soubory</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Shader.cpp">
+      <Filter>Zdrojové soubory</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Skybox.cpp">
+      <Filter>Zdrojové soubory</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\glad\glad.c">
+      <Filter>Zdrojové soubory\Include</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\libv2\v2mplayer.h">
+      <Filter>Zdrojové soubory\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\HouseFlatBase.h">
+      <Filter>Zdrojové soubory\Models\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BuildingBase.h">
+      <Filter>Zdrojové soubory\Models\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Road.h">
+      <Filter>Zdrojové soubory\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Skyscraper.h">
+      <Filter>Zdrojové soubory\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Flats.h">
+      <Filter>Zdrojové soubory\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\House.h">
+      <Filter>Zdrojové soubory\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera.h">
+      <Filter>Zdrojové soubory</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CatmullRom.h">
+      <Filter>Zdrojové soubory</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Generator.h">
+      <Filter>Zdrojové soubory</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mesh.h">
+      <Filter>Zdrojové soubory</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Shader.h">
+      <Filter>Zdrojové soubory</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Shaders.h">
+      <Filter>Zdrojové soubory</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Skybox.h">
+      <Filter>Zdrojové soubory</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Texture.h">
+      <Filter>Zdrojové soubory</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Libs\libv2.lib">
+      <Filter>Zdrojové soubory\Libs</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <YASM Include="Source\tune.asm">
+      <Filter>Zdrojové soubory</Filter>
+    </YASM>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source\Unknown iOTA tune 2.v2m">
+      <Filter>Zdrojové soubory</Filter>
+    </None>
+  </ItemGroup>
+</Project>
